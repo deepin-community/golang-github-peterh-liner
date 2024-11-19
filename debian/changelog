@@ -1,5 +1,79 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-peterh-liner (1.2.2-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mathias Gibbens <mathias@calenhad.com>  Fri, 29 Apr 2022 01:12:21 +0000
+
+golang-github-peterh-liner (1.2.1-1) unstable; urgency=medium
+
+  [ Alexandre Viau ]
+  * Remove myself from uploaders.
+
+  [ Aloïs Micard ]
+  * update debian/gitlab-ci.yml (using pkg-go-tools/ci-config)
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI
+  * Bump debhelper from deprecated 9 to 12
+  * Set debhelper-compat version in Build-Depends
+  * Set upstream metadata fields: Bug-Database, Bug-Submit
+
+  [ Mathias Gibbens ]
+  * New upstream release
+  * Add myself to Uploaders
+  * Update d/control
+    - Update Team's Maintainer email
+    - Update Section to golang
+    - Update Build-Depends and Depends
+    - Update Standards-Version (no changes needed)
+    - Add Rules-Requires-Root: no
+    - Add Multi-Arch: foreign
+  * Update d/copyright, d/rules, and d/metadata/upstream
+  * Add d/gbp.conf and d/watch
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Thu, 13 Jan 2022 08:41:23 +0100
+
+golang-github-peterh-liner (0.0~git20171122.3681c2a-3) unstable; urgency=medium
+
+  * Team upload.
+  * Vcs-* urls: pkg-go-team -> go-team.
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 05 Feb 2018 23:22:51 -0500
+
+golang-github-peterh-liner (0.0~git20171122.3681c2a-2) unstable; urgency=medium
+
+  * point Vcs-* urls to salsa.d.o subproject
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 25 Jan 2018 16:07:39 -0500
+
+golang-github-peterh-liner (0.0~git20171122.3681c2a-1) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL.
+
+  [ Alexandre Viau ]
+  * Move to salsa.debian.org.
+  * Testsuite: autopkgtest-pkg-go.
+  * Priority extra -> optional.
+  * New upstream snapshot.
+
+ -- Alexandre Viau <aviau@debian.org>  Sat, 30 Dec 2017 00:46:48 -0500
+
+golang-github-peterh-liner (0.0~git20151118.0.4d47685-1) unstable; urgency=medium
+
+  * New upstream snapshot
+  * Switch to using XS-Go-Import-Path
+  * changed my email to @debian.org
+
+ -- Alexandre Viau <aviau@debian.org>  Sun, 06 Dec 2015 16:52:26 -0500
+
+golang-github-peterh-liner (0.0~git20150318-1) unstable; urgency=low
+
+  [ Pierre-Luc Wagner ]
+  * Initial release. (Closes: #781275)
+
+  [ Alexandre Viau ]
+  * Renamed package to golang-github-peterh-liner
+  * Packaged newer version
+
+ -- Alexandre Viau <alexandre@alexandreviau.net>  Thu, 26 Mar 2015 15:59:13 -0400
